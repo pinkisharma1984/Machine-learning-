@@ -1,5 +1,6 @@
 # Programming Machine-learning-
 Dataset link : https://archive.ics.uci.edu/ml/datasets/Roman+Urdu+Data+Set
+
 Social media text usually comprises short length messages, which typically contain a high percentage of abbreviations, typos, phonetic substitutions, and other informal ways of writing. The inconsistent manner of text representation poses challenges in performing Natural Language Processing and other forms of analysis on the available data. Therefore, to overcome these issues, the text requires to be normalized for effective processing and analysis, we will be doing a type of sentimental analysis named Fine-grained Sentiment Analysis. In this work, we will perform text analysis on how the Roman Urdu language sentences. We have used different machine learning techniques such as clustering along with FastText, Naive Bayes and SVM in order to explain the process of the data deeply.
 
 Before doing preprocessing, we cleaned the dataset for better quality. We dropped the null values, cleaned for missing column names and fixed incorrect values of sentiments (i.e changing negative into negative). We also did exploratory analysis on our original dataset to see the distribution of the words count. We found that neutral responses have 50% higher word count as compared with positive and negative responses. Thus , it is inferred that our data set is unbalanced.
